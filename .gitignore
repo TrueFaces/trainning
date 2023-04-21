@@ -1,0 +1,9 @@
+.space
+.vscode
+*.h5
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+service_account.json
