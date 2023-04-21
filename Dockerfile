@@ -9,9 +9,9 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # for local
-ENV GOOGLE_APPLICATION_CREDENTIALS $APP_HOME/app/secrets/service_account.json
+# ENV GOOGLE_APPLICATION_CREDENTIALS $APP_HOME/app/secrets/service_account.json
 # for remote
-# ENV GOOGLE_APPLICATION_CREDENTIALS $APP_HOME/secrets/service_account.json
+ENV GOOGLE_APPLICATION_CREDENTIALS $APP_HOME/secrets/service_account.json
 
 # install dependencies
 COPY requirements.txt .
