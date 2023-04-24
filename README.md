@@ -27,7 +27,7 @@ Se ha montado dentro del proyecto un API con Swagger totalmente operativa. Se en
 
 También se dispone la documentación en ReDoc en la ruta /redoc
 
-# 
+# Documentacion
 1º Subida fotos Truefaces/Dataface y truefaces/Datanoface
 2º Añadido la cuenta se servicio 
 3º Subida del modelo modificado para su ejecucion en Cloud Run : train_model.py
