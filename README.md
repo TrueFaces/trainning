@@ -26,3 +26,11 @@ Se puede usar como ejemplo las variables definidas dentro del cloudbuild.yml
 Se ha montado dentro del proyecto un API con Swagger totalmente operativa. Se encuentra activa dentro de la ruta /docs
 
 También se dispone la documentación en ReDoc en la ruta /redoc
+
+# 
+1º Subida fotos Truefaces/Dataface y truefaces/Datanoface
+2º Añadido la cuenta se servicio 
+3º Subida del modelo modificado para su ejecucion en Cloud Run : train_model.py
+4º Añadido codigo en app/routes/train.py   ejecucion entrenamiento modelo.
+5ª añadido triguer al YAML del cloudbuild. Este archivo YAML define dos pasos en el proceso de compilación y un disparador 
+que programará un trabajo de entrenamiento de modelo cada tres meses y su guardado en el bucket.
