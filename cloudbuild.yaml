@@ -22,16 +22,4 @@ steps:
         "managed",
         "--allow-unauthenticated",
       ]
-triggers:
-  - name: "train-model"
-    description: "Entrenar el modelo cada tres meses"
-    tags:
-      - "train-model"
-    schedule: "0 0 1 */3 *"
-    build:
-      timeout: 25000s
-      steps:
-        - name: "gcr.io/cloud-builders/docker"
-          args: ["build", "-t", "gcr.io/$PROJECT_ID/train-model", "."]
-        - name: "gcr.io/cloud-builders/docker"
-          args: ["push", "gcr.io/$PROJECT_ID/train-model"]
+
