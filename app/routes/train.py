@@ -10,6 +10,8 @@ import cv2
 import numpy as np
 from sklearn.model_selection import train_test_split
 import time
+import tensorflow_cloud as tfc
+import tensorflow as tf
 
 router = APIRouter(prefix="/train", tags=["train"])
 
